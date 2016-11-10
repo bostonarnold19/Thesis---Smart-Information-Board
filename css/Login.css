@@ -1,0 +1,77 @@
+
+
+
+/*LOGIN MENU*/
+.loginForm{
+  margin: auto auto;
+  max-width: 65em;
+  padding: 70px 18px 1px 10px;
+  height: 78%;
+
+
+}
+
+.loginForm form {
+    border: 10px solid #0E2A36;
+  border-radius: 5px;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  color: #fff;
+  width: 50%;
+  background: #639C89;
+  padding-bottom: 30px;
+
+        
+}
+
+
+.loginForm h1 {
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.loginForm input{
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: auto auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  
+
+}
+
+
+.loginForm input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.loginForm input:focus {
+  background-color: white;
+  width: 300px;
+  color: #53e3a6;
+}
+
+
+.loginForm input[type="submit"]{
+  background-color: #3E4651;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+.loginForm input[type="submit"]:hover{
+  background-color: #0E2A36;
+}

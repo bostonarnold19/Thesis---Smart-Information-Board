@@ -1,0 +1,37 @@
+ 
+.statusMessage {
+  background-color: #2b2;
+  border: 1px solid #080;
+  color: #fff;
+  font-size: .8em;
+  padding: .5em;
+  margin-bottom: 2em;
+  border-radius: 5px; 
+  -box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  width: 89%;
+}
+
+.errorMessage {
+  background-color: #f22;
+  border: 1px solid #080;
+  color: #fff;
+  font-size: .8em;
+  padding: .5em;
+  margin-bottom: 2em;
+  border-radius: 5px; 
+  -box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  width: 89%;
+}
+
+.errorMessageLogin {
+  background-color: #f22;
+  border: 1px solid #080;
+  color: #fff;
+  font-size: .8em;
+  padding: .5em;
+  margin-bottom: 2em;
+  border-radius: 5px; 
+  -box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  width: 49%;
+}
+

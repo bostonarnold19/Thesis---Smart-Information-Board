@@ -1,0 +1,141 @@
+
+
+/* The field labels */
+
+.galleryForm {
+  margin: auto auto;
+  width: 1000px;
+  padding: 70px 18px 1px 10px;
+  height: 100%;
+
+}
+
+
+
+
+
+.galleryForm img{
+height: 200px;
+width:200px;
+margin-top: 15px;
+
+border: 1px solid #0E2A36;
+  border-radius: 5px;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+
+
+}
+
+
+.galleryForm a{
+   color: #F6F4F5;
+   font-size: .8em;
+ }
+
+
+.galleryForm a:hover{
+ color: #00B988;
+
+
+}
+
+
+
+
+.galleryForm input[type="file"]{
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  padding: 7px 15px;
+  font-size: 18px;
+  font-weight: 300;
+  width: 320px;
+  color: #fff;
+  position: relative;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+
+  
+
+}
+
+
+.galleryForm input[type="file"]:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.galleryForm input[type="file"]:focus {
+  background-color: white;
+  color: #53e3a6;
+
+
+}
+
+
+
+
+
+
+
+
+.galleryForm input[type="submit"]{
+   background-color: #3E4651;
+  padding: 10px 15px;
+    color: #00B988;
+  border-radius: 3px;
+  width: 260px;
+  cursor: pointer;
+  font-size: 18px;
+   border: 1px solid rgba(255, 255, 255, 0.4);
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s; 
+          display: inline;
+          text-align: center;
+}
+
+.galleryForm input[type="submit"]:hover{
+    background-color: #00B988;
+    color: #ECF0F1;
+}
+
+.galleryForm input[type="checkbox"] {
+  margin-left: -19.5px;
+  color: green;
+  
+}
+
+.galleryForm input[type="checkbox"]:checked {
+
+
+    color: white;
+    background: blue;
+}
+:checked {
+    color: green;
+}
+
+
+
+
+
+.galleryFormDelete input[type="submit"]{
+   background-color: #3E4651;
+  padding: 10px 15px;
+    color: #00B988;
+  border-radius: 3px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 18px;
+   border: 1px solid rgba(255, 255, 255, 0.4);
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s; 
+          display: inline;
+          text-align: center;
+}
+
+.galleryFormDelete input[type="submit"]:hover{
+   background-color: #00B988;
+    color: #ECF0F1;
+}
+
+
+

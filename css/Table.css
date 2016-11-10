@@ -1,0 +1,105 @@
+
+
+
+/* Tables */
+
+.AtableForm{
+  margin: auto auto;
+  max-width: 65em;
+  padding: 70px 18px 1px 10px;
+  height: 100%;
+  margin-bottom: 30%;
+
+
+}
+
+.AtableForm table {
+  width: 90%;
+  cursor: pointer;
+  color:#fff;
+  border: 10px solid #0E2A36;
+  border-radius: 5px;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+        border-collapse: collapse;
+
+}
+
+
+
+
+.AtableForm  th {
+  color: #0E2A36;
+  background: #639C89;
+  cursor: default;
+  text-align: left;
+  padding: 15px;
+  border: 1px solid #123;
+        border-collapse: collapse;
+         font-size: 1.2em;
+
+  
+
+}
+
+.AtableForm td {
+  padding: 10px;
+  border: 1px solid #123;
+        border-collapse: collapse;
+         color: #0E2A36;
+        font-size: 1em;
+           color: #FFFFFF;
+
+
+}
+
+.AtableForm  tr {
+  background: #3E4651;
+
+}
+
+
+.AtableForm  tr:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+
+
+}
+.AtableForm a{
+   color: #F6F4F5;
+   font-size: .8em;
+ }
+
+
+.AtableForm a:hover{
+ color: #00B988;
+
+
+}
+
+.addAnnouncementbtn input[type="submit"] {
+  background-color: #ECF0F1;
+  padding: 10px 15px;
+    color: #00B988;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+   border: 1px solid rgba(255, 255, 255, 0.4);
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s; 
+          display: inline;
+          text-align: center;
+          margin-left: 20px;
+         
+
+
+}
+
+.addAnnouncementbtn input[type="submit"]:hover {
+  background: #fff;
+  color:  #53e3a6;
+}
+
+
+
+
+
